@@ -165,7 +165,7 @@ EthStorage 为 Rebase Hackathon 特别设定 EthStorage Grant 计划，旨在为
 - 使用 EthFS-Uploader 来进行内容的上传和读取 - 中级别
 - 动态链上 dWeb 应用 - 高级别，拥有更多奖励
 
-**由 EthStorage 的评委进行评选，解释权归 EthStorage **
+**由EthStorage的评委进行评选，解释权归EthStorage**
 
 请注意：  
 - 参赛作品若出现剽窃其他作品行为，取消参赛资格。  
