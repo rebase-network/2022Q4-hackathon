@@ -47,6 +47,7 @@ Rebase黑客松将于2022年12月16日开赛，于2022年12月18日结束。
 参与评选参赛作品需要同时满足以下要求：
 - 团队已报名
 - 作品已在 github 提交 PR
+- 非本次黑客松期间完成的内容不参与评选
 - 作品符合赛题要求即可参加最终评选，同赛题无关项目不参与评选
 
 有关黑客松的详细信息请查看参赛文档 [https://github.com/rebase-network/2022Q4-hackathon](https://github.com/rebase-network/2022Q4-hackathon)
@@ -71,8 +72,8 @@ Rebase黑客松将于2022年12月16日开赛，于2022年12月18日结束。
     ```
     projects
       L 01-RebaseNFT
-        L docs              // 这里放所有文档，项目资料，规划，demo 链接, ppt (链接)
-        L README.md         // 作品、团队介绍信息、项目代码Github链接等
+        L docs              // 这里放所有文档，包含项目资料、商业规划、demo资料或链接、ppt文件或链接
+        L README.md         // 作品和团队介绍信息、项目代码Github链接等
     ```
 
 **在 README.md 中务必包含以下信息，用于评委评审和奖励颁发**
@@ -88,7 +89,7 @@ Rebase黑客松将于2022年12月16日开赛，于2022年12月18日结束。
   - ERC20 地址(用于接收个人纪念品)
 
 **提示**
-作品介绍中重点突出作品创意、作品未来计划等。
+作品介绍中重点突出作品创意、**在本次黑客松中完成的内容**以及作品未来计划等。
     
 以下为范例
 ```
@@ -165,7 +166,7 @@ EthStorage 为 Rebase Hackathon 特别设定 EthStorage Grant 计划，旨在为
 - 使用 EthFS-Uploader 来进行内容的上传和读取 - 中级别
 - 动态链上 dWeb 应用 - 高级别，拥有更多奖励
 
-**由 EthStorage 的评委进行评选，解释权归 EthStorage **
+**由EthStorage的评委进行评选，解释权归EthStorage**
 
 请注意：  
 - 参赛作品若出现剽窃其他作品行为，取消参赛资格。  
