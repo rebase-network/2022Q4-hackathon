@@ -71,8 +71,8 @@ Rebase黑客松将于2022年12月16日开赛，于2022年12月18日结束。
     ```
     projects
       L 01-RebaseNFT
-        L docs              // 这里放所有文档，项目资料，规划，demo 链接, ppt (链接)
-        L README.md         // 作品、团队介绍信息、项目代码Github链接等
+        L docs              // 这里放所有文档，包含项目资料、商业规划、demo资料或链接、ppt文件或链接
+        L README.md         // 作品和团队介绍信息、项目代码Github链接等
     ```
 
 **在 README.md 中务必包含以下信息，用于评委评审和奖励颁发**
