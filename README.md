@@ -92,6 +92,8 @@ Rebase黑客松将于2022年12月16日开赛，于2022年12月18日结束。
 作品介绍中重点突出作品创意、**在本次黑客松中完成的内容**以及作品未来计划等。
     
 以下为范例
+
+**README.md**内容
 ```
 # PR 编号 1 （即此次黑客松比赛中你所在队伍的编号，如何知道编号可以查看👆的流程）
 # 队伍信息
@@ -127,6 +129,9 @@ Shooter
 - 0xC8ecB38d26205BCeec31310806FA5e29F7426ADe
 
 ```
+
+**Docs目录和PR信息范例**
+[https://github.com/rebase-network/2022Q4-hackathon/pull/1](https://github.com/rebase-network/2022Q4-hackathon/pull/1)
 
 ## 评审流程  
 参加最终评审的作品将以PR更新时间不超过 2022 年 12 月 18 日 下午 14:00 为准。  
@@ -172,7 +177,7 @@ EthStorage 为 Rebase Hackathon 特别设定 EthStorage Grant 计划，旨在为
 - 参赛作品若出现剽窃其他作品行为，取消参赛资格。  
 
 ## Workshop   
-- 到我们 [B 站频道](https://space.bilibili.com/382886213) 观看过往录播  
+- 到我们 [B 站频道](https://space.bilibili.com/382886213) 或 [YouTube频道](https://www.youtube.com/@rebasecommunity) 观看过往录播  
 
 ## 其他  
 
