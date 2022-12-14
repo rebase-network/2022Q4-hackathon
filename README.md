@@ -36,6 +36,14 @@ Rebase黑客松将于2022年12月16日开赛，于2022年12月18日结束。
 - Rebase社区最受欢迎奖 x1
 - Rebase社区最佳创意奖 x1
 
+
+#### 特别赞助奖
+EthStorage Grant计划
+EthStorage 将为符合条件的每个团队都提供 $1000 奖金予以鼓励！
+
+亚马逊云科技特别奖
+亚马逊云技为符合条件的黑客松参赛获奖团队提供高达 $25,000 免费云资源
+
 ### 报名参赛
 - 需以队伍形式参赛
 - 采用自由组队形式参与
@@ -173,8 +181,75 @@ EthStorage 为 Rebase Hackathon 特别设定 EthStorage Grant 计划，旨在为
 
 **由EthStorage的评委进行评选，解释权归EthStorage**
 
+### 亚马逊云科技特别奖
+亚马逊云科技为符合条件的黑客松参赛获奖团队提供高达 $25,000 免费云资源。请联系工作人员获取相应资源。
+*评估权益归亚马逊云科技所有。
+
 请注意：  
 - 参赛作品若出现剽窃其他作品行为，取消参赛资格。  
+
+## 参赛福利
+
+### Rebase 限量NFT
+我们还设计了不同的Rebase限量版NFT，作为获奖团队以及帮助我们举办此次黑客松的参与者们的纪念奖品。具体有：
+- 志愿者 NFT
+- 参赛者 NFT
+- 获奖团队 NFT
+- 导师、评委 NFT
+
+### NFTScan
+NFTScan 是一个专业的 NFT 数据基础设施，目前已支持 Ethereum、Solana、BNBChain、Polygon、Avalanche、Arbitrum、Optimism、Moonbeam、PlatON 9 条区块链网络的 NFT 全量数据。除了 NFTScan 多链 NFT 浏览器产品外，NFTScan 团队还推出了 OpenAPI 开发者平台，为 Web3 开发者提供专业的 NFT API 数据服务。NFTScan 目前服务了 100 + Web3 项目，其中包括 Safepal、Mask Network、imToken、CyberConnect、BitKeep、Numbers Protocol、Kucoin、SlowMist、OneKey、Cobo 等知名区块链项目。欢迎更多的 Web3 开发者基于 NFTScan 基础设施快速的构建自己的 Web3 产品和协议。  
+NFTScan: https://nftscan.com/  
+Developer: https://developer.nftscan.com/  
+Twitter: https://twitter.com/nftscan_com  
+Discord: https://discord.com/invite/8c87fS2HHF  
+Email: hello@nftscan.com  
+
+NFTScan为所有黑客松参赛团队提供全程的 NFT 数据服务，如果有开发者需要的话，可以提前申请，开通 PRO API 权限。  
+
+请前往 https://github.com/rebase-network/benefits 申请！
+
+### BlockPI Network
+BlockPI Network是一个Web3.0多链分布式加速层，为Web3.0项目提供高速、高可用以及无限可扩展性的全球分布式RPC服务。  
+Website: https://blockpi.io/   
+Twitter: https://twitter.com/RealBlockPI   
+Discord: https://discord.gg/xTvGVrGVZv   
+Medium: https://medium.com/@blockpi   
+ 
+为了支持Web3创业者，我们推出了BlockPI Web3 Startup Program。Web3的开发者可以获得最多$1000 credits，来使用BlockPI的RPC服务。作为Rebased Hackathon 2022的合作伙伴，我们将为Rebase社区成员提供Credits使用BlockPI RPC服务，以及优先申请BlockPI Web3 Stratup Program的特权。  
+点此申请：https://blockpi.io/startup  
+无论您是否报名参加了 Rebase Hackathon 2022，您都可以申请该计划。Rebase所有社区成员可以获得价值$49 BlockPI Network Elementary package。  
+
+黑客松参加者福利：  
+- 所有社区成员可以获得价值$49 BlockPI Network Elementary package
+- 一等奖可以获得$1000 Credits 使用BlockPI API service 
+- 二等奖可以获得$800 Credits 使用BlockPI API service 
+- 三等奖可以获得$500 Credits 使用BlockPI API service  
+- 报名参赛者可以获得价值$299 的BlockPI Network Premium package
+
+BlockPI 账户注册地址：https://dashboard.blockpi.io/ 
+*参赛者可以使用报名黑客松时的钱包地址在blockpi.io注册，参赛者福利将会在赛前送至您的BlockPI账户。或填写申请表并注明您是参赛队伍或Rebase社区成员，相应福利会在申请提交后发放至您的BlockPI账户。
+
+请前往 https://github.com/rebase-network/benefits 申请！
+
+
+### BlockIot
+Blockiot是一家美国公司，是AWS亚马逊云全球合作伙伴、垂直服务于Web3赛道的云服务商。让开发者使用公有云时的支付更便捷，且注册更简单，并提供云上的技术支持与解决方案。以及提供web3资源帮助客户业务增长（如投融资对接、宣发运营、技术开发、做市商、web3律师、APP海外上架等等）。现有客户200+，包含各家交易所、钱包、DID、Gamefi、Defi平台等。 
+
+作为亚马逊云服务合作伙伴，我们的优势有：  
+1.无需KYC，提供邮箱即可注册  
+2.支持USDT支付，更适合web3创业者  
+3.流程与支付合规，出具合同及invoice  
+4.提供云上的技术支持与解决方案   
+5.提供市场资源扶持项目成长  
+
+Website：blockiot.io  
+Twitter：@blockiot_io  
+WeChat：blockiot_io  
+
+目前Blockiot为Rabase社区中的开发者提供一个月的免费使用权。如有需要，可添加官方账号（blockiot_io）沟通细节，期待优秀开发者前来问询。  
+
+请前往 https://github.com/rebase-network/benefits 申请！
 
 ## Workshop   
 - 到我们 [B 站频道](https://space.bilibili.com/382886213) 或 [YouTube频道](https://www.youtube.com/@rebasecommunity) 观看过往录播  
