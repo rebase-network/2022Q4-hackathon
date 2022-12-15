@@ -1,0 +1,112 @@
+{
+  "ERROR": {
+    "WALLET": {
+      "NOT_CONNECT": "请先连接钱包。",
+      "NOT_METAMASK": "请安装metamask扩展。",
+      "NOT_SUPORT": "不支持这个网络，请切换网络。",
+      "SIGNATURE": "您未确认钱包签名。"
+    },
+    "COMMON": {
+      "COPYED": "您的邀请链接复制成功。",
+
+      "BET_AMOUNT": "下注金额无效。"
+    },
+    "CONTRACT": {
+      "CLAIMED": "恭喜您已经领取到您的收益，谢谢您的参与。",
+      "BET_WIN": "下注成功，本局您赢了：",
+      "BET_LOSE": "下注成功，本局您输了。"
+    }
+  },
+  "GLOBAL": {
+    "BRAND": "Gambling",
+    "JOINUS": "加入我们的社区",
+    "EMPTY": "暂无更多数据",
+    "USERNAME": "游客",
+    "LOGIN": "您现在为游客身份，请先链接钱包。"
+  },
+  "MENUS": {
+    "PC": {
+      "HOME": "首页",
+      "HALL": "大厅",
+      "POKER": "扑克",
+      "MAHJONG": "麻将",
+      "DICES": "骰子",
+      "WHEEL": "轮盘",
+      "FRIUT": "水果机",
+      "LEISURE": "休闲",
+      "OTHER": "其它",
+
+      "STATISTICS": "统计",
+      "POOL": "游戏奖池",
+      "RANK": "热门排行",
+
+      "SUPORT": "支持",
+      "QUESTION": "问答中心",
+      "ABOUT": "公告 & 活动",
+      "CONTACT": "联系我们",
+      
+      "PROFILE": "个人中心",
+      "USER": "我的",
+      "HISTORY": "历史记录",
+      "COLLECTION": "收藏",
+      "RECOMMEND": "推荐",
+
+      "DISCONNECT": "断开链接",
+      "CONNECT": "链接钱包"
+    }
+  },
+  "HOME": {
+    "TRENDING": "热门游戏",
+    "POKER": "扑克游戏",
+    "MORE": "更多推荐"
+  },
+  "SEARCH": {
+    "TITLE": "筛选游戏"
+  },
+  "POOL": {
+    "DESC": "持有游戏代币的玩家可参与奖金池兑换，该比例为1:10000",
+    "NETWORK": "支持网络",
+    "TITLE": "更多支持",
+    "MORE": "更多的网络正在来的路上，敬请期待"
+  },
+  "USER": {
+    "ACCOUNT": "我的账户",
+    "ACC_CONTENT": "为了让每一位新用户体验到游戏的乐趣，每位新用户都可以免费领取1000枚GAMB空头。",
+    "AIR_CLAIM": "领取空投",
+    "TAB_TOKEN": "代币",
+    "TAB_BALANCE": "余额",
+    "TAB_ACTIONS": "操作",
+
+    "RECOMMEND": "我的推荐",
+    "REC_TITLE": "邀请用户来赚取GAMB代币",
+    "REC_CONTENT": "我们的推荐机制可以为您带来更多收入，通过您专属分享链接邀请朋友参与，您和您的朋友可以同时获得代币奖励。",
+
+    "GAMB": "GAMB 代币收益",
+    "ETH": "ETH 代币收益",
+    "SHARE": "我的分享",
+
+    "TOTAL_REWARD": "累计领取",
+    "NOW_REWARD": "尚未领取",
+    "REWARD_DESC": "只要邀请新用户参与则可以免费领取GAMB",
+    "REW_CLAIM": "领取",
+    "TOTAL_USER": "邀请用户总数",
+    "SHARE_LINK": "您的分享链接",
+    "BTN_COPY": "复制链接",
+
+    "HISTORY": "历史记录",
+    "COLLECTION": "我的收藏"
+  },
+  "ROOM": {
+    "BALANCE": "余额",
+    "BET": "下注",
+    "MIN": "最小",
+    "HALF": "1/2",
+    "MAX": "最大",
+    "PROFIT": "盈利",
+    "FEE": "费率",
+    "CHANCE": "几率",
+    "BET_BET_RANDOM": "随机选择",
+    "BTN_BET_SMALL": "押小",
+    "BTN_BET_BIG": "押大"
+  }
+}

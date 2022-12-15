@@ -1,0 +1,178 @@
+{
+  "contractName": "IReceiver",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getReceiver",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getReceiver\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/know-interface/IReceiver.sol\":\"IReceiver\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/know-interface/IReceiver.sol\":{\"keccak256\":\"0x8b7ac341e7927b00bc40788056b1f0e89f4446f0937681a070230accb105e04d\",\"license\":\"SimPL-2.0\",\"urls\":[\"bzz-raw://301f0086ad240d85ddba0469bf08b6b1b7a445a50a7f0d254a62178c9fac1074\",\"dweb:/ipfs/QmSSvx7JBE94GmRsHQJWVe1Nn3Btrn4pAcGftsW1o5Mfcj\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: SimPL-2.0\n\npragma solidity ^0.8.0;\n\ninterface IReceiver {\n    function getReceiver() external view returns (address, uint256);\n}",
+  "sourcePath": "/Users/cea/Projects/myself/knowlage-dapp/contracts/know-interface/IReceiver.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/know-interface/IReceiver.sol",
+    "exportedSymbols": {
+      "IReceiver": [
+        6628
+      ]
+    },
+    "id": 6629,
+    "license": "SimPL-2.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6620,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:37"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IReceiver",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 6628,
+        "linearizedBaseContracts": [
+          6628
+        ],
+        "name": "IReceiver",
+        "nameLocation": "74:9:37",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "98aca922",
+            "id": 6627,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getReceiver",
+            "nameLocation": "99:11:37",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6621,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:2:37"
+            },
+            "returnParameters": {
+              "id": 6626,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6623,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6627,
+                  "src": "136:7:37",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 6622,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "136:7:37",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6625,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6627,
+                  "src": "145:7:37",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6624,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "145:7:37",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "135:18:37"
+            },
+            "scope": 6628,
+            "src": "90:64:37",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 6629,
+        "src": "64:92:37",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:117:37"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.16+commit.07a7930e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.9",
+  "updatedAt": "2022-12-15T08:49:28.476Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
