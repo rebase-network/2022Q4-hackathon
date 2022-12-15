@@ -13,6 +13,9 @@ DAO用户和数字游民是我们的两大核心用户群体，因为他们平�
 我们团队在游戏和游戏化的商业应用方面都有过高日活高流水的成功经验，同时我们是一个成长于Web3的团队，我们有很强的Web3资源积累，并且和许多DAO以及数字游民社区都已经建立了合作关系。<br><br>
 现在DAOLink的内测版正在全力开发中，希望尽早可以拿出来给大家使用。<br><br>
 
+![miniPublicSpaceRoom](https://user-images.githubusercontent.com/77767113/207854239-854d2a3e-c68f-4ab2-89e8-c6044f68776b.png)
+
+
 ## 作品代码仓库
 https://github.com/ScallionSteak/sg-full-stack
 
