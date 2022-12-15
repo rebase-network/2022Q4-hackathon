@@ -20,4 +20,9 @@ https://github.com/uninstalls/knowlage-dapp
 
 Vitalik
 - 产品/合约/前端/后台
+- https://twitter.com/Xmas118
 - 0x3264Cf09543C9E713DDE3Fb2A87A9FE9513A0d59
+
+李树
+- 合约
+- 0xFc42989B0BCa31a778bFa46ea3A30169cA363c0B
