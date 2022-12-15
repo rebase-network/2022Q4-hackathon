@@ -1,4 +1,4 @@
-# PR 编号 05
+- # PR 编号 ?
 
 # 队伍信息
 
@@ -20,25 +20,25 @@
 
 ## 成员
 
-  Shrimp
+Shrimp
 
 - FreeBe 前端开发
 - <https://github.com/Code-Shrimpsss>
 - 0x2DE3Dac4fa829C63b801148198154aFEA3722D67
 
-  Michel
+Michel
 
 - FreeBe 后端开发
 - <https://github.com/MichaelYangjson>
 - 0xF8E1B07Fd61EcCF2d9FF837eeEb96aC7d9226eDc
 
-  Bug
+Bug
 
 - FreeBe 全栈开发
 - <https://github.com/startourvip>
 - 0x4C3657De19D967869eEc339366cc2963f8888888
 
-  Zoe
+Zoe
 
 - FreeBe 产品设计
 - <https://www.yuque.com/zoeren>
