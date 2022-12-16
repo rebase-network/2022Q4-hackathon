@@ -18,12 +18,15 @@ https://github.com/cyhhao/git3
 
 
 cyh
-- Git3 开发
+- Git3 CLI 开发
 - https://github.com/cyhhao
 - 0x9620b36841DaCd567032110000a7F090eBf2BCa3
 
 LiuKai
-- Git3 开发
-- https://github.com/luckyyang
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADd
+- Git3 CLI 开发
+- https://github.com/xxx
 
+0xhhh
+- Git3 Contract 开发
+- https://github.com/xxx
+- 0x...
