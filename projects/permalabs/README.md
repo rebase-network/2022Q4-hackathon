@@ -5,22 +5,19 @@
 RebaseNFT
 
 ## ERC20 地址(用于团队接收奖励)
-0xC8ecB38d26205BCeec31310806FA5e29F7426ADb
+0xaef19EC268cc64Ccf2CCC0d154184dfeF3cF99a9
 
 ## 作品简介
 
-RebaseNFT 是一款NFT发行工具，通过多签合约结合去中心化存储发行 POAP。
-RebaseNFT 用以记录 Rebase社区中的活动参与记录和贡献，对于 Rebase社区而言极具意义。
+PermaLabs can keep web pages permanently in your web3 wallet, even if the original web page disappears.
 
 ## 作品代码仓库
-https://github.com/rebase-network/hello-world
+https://github.com/permalabss/
 
 ## 成员
 
-Noequal
-- permalabs 开发
-- https://github.com/ymybxx
-- 0xB8f1770406003991b58603a069eE9E01dE2Cf354
+Alex
+- permalab 产 0xaef19EC268cc64Ccf2CCC0d154184dfeF3cF99a9
 
 Harry
 - Rebase 设计
