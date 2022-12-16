@@ -1,8 +1,8 @@
 
-# PR 编号 1 （即此次黑客松比赛中你所在队伍的编号，如何知道编号可以查看👆的流程）
+# PR 编号 18 （即此次黑客松比赛中你所在队伍的编号，如何知道编号可以查看👆的流程）
 # 队伍信息
 ## 队伍/作品名称
-RebaseNFT
+PermaLabs
 
 ## ERC20 地址(用于团队接收奖励)
 0xaef19EC268cc64Ccf2CCC0d154184dfeF3cF99a9
@@ -17,14 +17,10 @@ https://github.com/permalabss/
 ## 成员
 
 Alex
-- permalab 产 0xaef19EC268cc64Ccf2CCC0d154184dfeF3cF99a9
+- permalab 产品
+- 0xaef19EC268cc64Ccf2CCC0d154184dfeF3cF99a9
 
-Harry
-- Rebase 设计
-- https://github.com/luckyyang
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADd
+Noequal
+- permalab 开发
+- 0xB8f1770406003991b58603a069eE9E01dE2Cf354
 
-Shooter
-- Rebase 产品
-- https://github.com/liushooter
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADe
