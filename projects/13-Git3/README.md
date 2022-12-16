@@ -17,7 +17,7 @@ https://github.com/cyhhao/git3
 ## 成员
 
 
-- cyh
+cyh
 - Git3 开发
 - https://github.com/cyhhao
 - 0x9620b36841DaCd567032110000a7F090eBf2BCa3
