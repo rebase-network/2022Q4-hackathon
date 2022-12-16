@@ -30,3 +30,7 @@ LiuKai
 - Git3 Contract 开发
 - https://github.com/cyl19970726
 - 0xFaDF9BBFCc784584766e8B0436bd26bBC488ddFd
+
+Harry Liu
+- Git3 Contract 开发
+- https://github.com/luckyyang
