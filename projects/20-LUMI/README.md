@@ -7,9 +7,9 @@ LUMI
 0x5f077eefF967Ed8411b32e2Bd0f5cAb16e22A8B4
 
 ## 作品简介
-Lumi，一项为上帝信徒的代祷和捐赠带来团结的协议。
-在 Lumi dApp 中，信徒的祈祷将以代币的形式呈现，可以促进和捐赠给慈善项目。
-在一些慈善项目中提供帮助的用户将获得 SBT 徽章。他们可以使用徽章找到他们的社区。
+Lumi dApp基于Lumi protocol，以基督徒为核心，让人们的互助、互祷行为，通过web3对真实世界的互助产生实质影响。
+
+用户祷告的日常行为以Bless token呈现。Bless token用来捐助。捐助过同一事件的人获得SBT徽章，用来找到志同道合的朋友。
 
 ## 作品代码仓库
 https://github.com/lumi-labs
