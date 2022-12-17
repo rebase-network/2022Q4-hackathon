@@ -3,13 +3,13 @@
 
 功能演示 Demo：[这里](https://www.capcut.cn/share/7177950888768705830?t=1)。
 
-策略列表: 
+策略列表:  
 ![](./demo/list.jpeg)
 
-创建策略: 
+创建策略:  
 ![](./demo/create.jpeg)
 
-策略执行记录: 
+策略执行记录:  
 ![](./demo/record.jpg)
 
 ## 快速开始
