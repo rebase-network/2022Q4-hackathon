@@ -1,4 +1,4 @@
-import { createCampaign, dashboard, logout, payment, profile, withdraw } from '../assets';
+import { createDAO, dashboard, payment, profile } from '../assets';
 
 export const navlinks = [
   {
@@ -8,7 +8,7 @@ export const navlinks = [
   },
   {
     name: 'BUIDL',
-    imgUrl: createCampaign,
+    imgUrl: createDAO,
     link: '/create-dao',
   },
   {

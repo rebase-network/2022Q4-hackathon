@@ -1,6 +1,6 @@
 export const getHistory = (days) => {
     const difference = Date.now() - days*1000;
-    const history = difference / (1000 * 3600 * 24);
+    const history = difference / (1000 * 3600);
     return history.toFixed(0);
   };
   

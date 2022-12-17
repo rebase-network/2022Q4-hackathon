@@ -1,6 +1,0 @@
-
-            Main text Font: Iceland
-            Slogan Text Font: Cormorant Unicase
-            COLOR RGBA: rgba(89, 41, 30, 1.0)
-            COLOR HEX: #59291e
-            

@@ -17,8 +17,31 @@ const Promotions = () => {
     setIsLoading(true);
     const contract = await sdk.getContractFromAbi(state.contractAddress, FansDAOABI.abi);
     const data = await contract.call('get_promotions');
-    setPromotions(data);
-    console.log(data)
+    const parsedPromotions = data.map((promotion, i) => ({
+      pId: i,
+      NFTAddress:promotion.NFTAddress,
+      NFTsymbol:promotion.NFTsymbol,
+      consignor:promotion.consignor,
+      promotionID: promotion.promotionID,
+      royaltyPercent: promotion.royaltyPercent,
+      powerThreshold:promotion.threshold,
+      promotionCreationTime:promotion.promotionCreationTime,
+      promotionLogo: promotion.promotionLogo,
+      promotionName: promotion.promotionName,
+      promotionStory: promotion.promotionStory
+    })) //story
+    const DAOOwner =  await contract.call('ownerName');
+    const logoDAO =  await contract.call('logo');
+    const daoID =  await contract.call('id');
+    const daoName =  await contract.call('name');
+    for(let i=0;i<parsedPromotions.length;i++){
+      parsedPromotions[i]['DAOOwner']= DAOOwner;
+      parsedPromotions[i]['logoDAO']=logoDAO;
+      parsedPromotions[i]['daoID']=daoID;
+      parsedPromotions[i]['daoName']=daoName;
+    }
+    setPromotions(parsedPromotions);
+    console.log(parsedPromotions)
     setIsLoading(false);
   }
 
@@ -28,7 +51,7 @@ const Promotions = () => {
 
   return (
     <DisplayPromotions 
-      title="All Promotions"
+      title={`Promotions of ${state.nameOfDAO}`}
       isLoading={isLoading}
       promotions={promotions}
     />

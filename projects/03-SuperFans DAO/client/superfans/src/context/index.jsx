@@ -1,13 +1,11 @@
 import React, { useContext, createContext, useState } from 'react';
 
 import { useAddress, useContract, useMetamask, useContractWrite, useDisconnect } from '@thirdweb-dev/react';
-import { ethers } from 'ethers';
-import { EditionMetadataWithOwnerOutputSchema } from '@thirdweb-dev/sdk';
 
 const StateContext = createContext();
 
 export const StateContextProvider = ({ children }) => {
-  const { contract } = useContract('0x57F029A41dc76914d9bFBFCF1522D64964550AEE');
+  const { contract } = useContract('0x599d06AD6C2cC8f097C2713506ED4A8EE54CeA28');
   const { mutateAsync: createFansDAO } = useContractWrite(contract, 'createFansDAOContract');
   const address = useAddress();
   const connect = useMetamask();
@@ -22,7 +20,7 @@ export const StateContextProvider = ({ children }) => {
         form.logo,
         form.banner
       ])
-
+   
       console.log("contract call success", data)
     } catch (error) {
       console.log("contract call failure", error)

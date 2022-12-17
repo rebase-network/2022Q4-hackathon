@@ -3,19 +3,19 @@ pragma solidity ^0.8.9;
 import "./Promotion.sol";
 
 contract FansDAO {
-    uint256 creationTime;
-    address owner;
-    string ownerName;
-    uint256 id;
-    string name;
-    string description;
-    string logo;
-    string banner;
-    address[] members;
-    uint256[] power;
-    address[] promotions_address;
-    address vote_token;
-    address member_token;
+    uint256 public creationTime;
+    address public owner;
+    string public ownerName;
+    uint256 public id;
+    string public name;
+    string public description;
+    string public logo;
+    string public banner;
+    address[] public members;
+    uint256[] public power;
+    address[] public promotions_address;
+    address public vote_token;
+    address public member_token;
 
     constructor(
         uint256 _id,
@@ -61,6 +61,7 @@ contract FansDAO {
         uint256 promotionCreationTime;
         uint256 promotionID;
         string promotionName;
+        string promotionStory;
         string NFTsymbol;
     }
 
@@ -81,7 +82,8 @@ contract FansDAO {
         string memory _promotionLogo,
         uint256 _threshold,
         string memory _promotionName,
-        string memory _NFTsymbol
+        string memory _NFTsymbol,
+        string memory _promotionStory
     ) public onlyOwner returns (uint256){
         uint256 _promotion_creationTime = block.timestamp;
         Promotion newNFTContract = new Promotion(_promotionName, _NFTsymbol, _consignor, _royaltyPercent);
@@ -94,6 +96,9 @@ contract FansDAO {
         promotionContracts[numberOfPromotions].royaltyPercent = _royaltyPercent;
         promotionContracts[numberOfPromotions].threshold = _threshold;
         promotionContracts[numberOfPromotions].NFTAddress = _NFTaddress;
+        promotionContracts[numberOfPromotions].promotionStory = _promotionStory;
+        promotionContracts[numberOfPromotions].NFTsymbol = _NFTsymbol;
+        promotionContracts[numberOfPromotions].promotionName = _promotionName;
         numberOfPromotions++;
         return numberOfPromotions-1;
     }

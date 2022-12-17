@@ -1,16 +1,16 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import promotionCard from './promotionCard';
+import PromotionCard from './PromotionCard';
 import { loader } from '../assets';
 
 
-const DisplayPromotions = ({ title, isLoading, promotions }) => {
+const DisplayPromotions = ({ title, isLoading, promotions}) => {
   const navigate = useNavigate();
 
   console.log(promotions)
   const handleNavigate = (promotion) => {
-    navigate(`/promotions-details/${promotion.id}`, { state: promotion })
+    navigate(`/promotions-details/${promotion.daoID}/${promotion.promotionID}`, { state: promotion })
   }
 
 
@@ -30,11 +30,11 @@ const DisplayPromotions = ({ title, isLoading, promotions }) => {
           </p>
         )}
 
-        {/* {!isLoading && promotions.length > 0 && promotions.map((promotion) => <promotionCard 
-          key={promotion.id}
+        {!isLoading && promotions.length > 0 && promotions.map((promotion) => <PromotionCard 
+          key={promotion.promotionID}
           {...promotion}
           handleClick={() => handleNavigate(promotion)}
-        />)} */}
+        />)}
       </div>
     </div>
   )

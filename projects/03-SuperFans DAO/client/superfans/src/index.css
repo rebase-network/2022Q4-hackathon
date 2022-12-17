@@ -49,6 +49,18 @@
 );
 }
 
+.litext {
+  background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+
+.mbl {
+  background-image:linear-gradient(to bottom right, rgba(255,255,255,0.6), rgba(255,255,255,0));
+  backdrop-filter: "blur(10px)"; 
+  box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
+}
+
 
 
 input[type="date"]::-webkit-calendar-picker-indicator {

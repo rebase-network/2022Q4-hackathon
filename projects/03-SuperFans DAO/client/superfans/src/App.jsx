@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import { Sidebar, Navbar } from './components';
-import { DAOdetails, CreateCampaign, Home, Profile, Promotions } from './pages';
+import { DAOdetails, CreateDAO, Home, Profile, Promotions, AllPromotions, PromotionDetails } from './pages';
 
 const App = () => {
   return (
@@ -17,10 +17,12 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/create-dao" element={<CreateCampaign />} />
-          <Route path="/daos-details/:id" element={<DAOdetails />} />
+          <Route path="/create-dao" element={<CreateDAO />} />
+          <Route path="/daos-details/:id/" element={<DAOdetails />} />
           {/* <Route path="/create-promotion" element={<CreatePromotion />} /> */}
+          <Route path="/promotions-details/:id/:id" element={<PromotionDetails />} />
           <Route path="promotions/:id" element={<Promotions />} />
+          <Route path="promotions/" element={<AllPromotions />} />
         </Routes>
       </div>
     </div>

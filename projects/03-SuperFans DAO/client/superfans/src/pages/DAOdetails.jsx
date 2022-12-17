@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
-import { ethers } from 'ethers';
 import { useStateContext } from '../context';
 import { CountBox, CustomButton, Loader } from '../components';
-import { thirdweb } from '../assets';
 import { useAddress, useContract, useMetamask, useContractWrite, useDisconnect } from '@thirdweb-dev/react';
 import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import { FansDAOABI } from '../ABIs';
@@ -18,6 +16,7 @@ const DAOdetails = () => {
   // const { contract, isLoading: isResolving } = useContract(contractAddress)
   // const { mutateAsync: joinDAO } = useContractWrite(contract, 'become_memeber');
   const [members, setMembers] = useState([]);
+  const [promotions, setPromotions] = useState([]);
   const contract = useContract(state.contractAddress)
   // const {contract} = useContract(state.contractAddress)
   // const {
@@ -40,6 +39,28 @@ const DAOdetails = () => {
     return members
   }
 
+  const getPromotions = async () => {
+    console.log(state.contractAddress);
+    const contract1 = await sdk.getContractFromAbi(state.contractAddress, FansDAOABI.abi);
+    const promotions = await contract1.call('get_promotions')
+    const parsedPromotions = promotions.map((promotion, i) => ({
+      pId: i,
+      NFTAddress: promotion.NFTAddress,
+      NFTsymbol: promotion.NFTsymbol,
+      consignor: promotion.consignor,
+      promotionID: promotion.promotionID,
+      royaltyPercent: promotion.royaltyPercent,
+      powerThreshold: promotion.threshold,
+      promotionCreationTime: promotion.promotionCreationTime,
+      promotionLogo: promotion.promotionLogo,
+      promotionName: promotion.promotionName,
+      promotionStory: promotion.promotionStory
+    })) //story
+    setIsLoading(false);
+    console.log(promotions)
+    return parsedPromotions
+  }
+
   const fetchMembers = async () => {
     setIsLoading(true);
     const data = await getMembers();
@@ -47,8 +68,16 @@ const DAOdetails = () => {
     setIsLoading(false);
   }
 
+  const fetchPromotions = async () => {
+    setIsLoading(true);
+    const data = await getPromotions();
+    setPromotions(data);
+    setIsLoading(false);
+  }
+
   useEffect(() => {
     fetchMembers()
+    fetchPromotions()
   }, [])
 
   // const handleJoin = async () => {
@@ -80,12 +109,12 @@ const DAOdetails = () => {
 
         <div className="flex md:w-[150px] w-full flex-wrap justify-between gap-[10px]">
           <div className="flex flex-col items-center w-[150px]">
-            <h4 className="font-epilogue font-bold text-[16px] text-white p-3 bg-[#1c1c24] rounded-t-[10px] w-full text-center truncate">{state.nameOfDAO}</h4>
-            <p className="font-epilogue font-normal text-[16px] text-[#808191] bg-[#28282e] px-3 py-2 w-full rouned-b-[10px] text-center">{`Name`}</p>
+            <h4 className="font-epilogue font-bold text-[16px] text-white p-3 bg-[#0000b3] mbl rounded-t-[10px] w-full text-center truncate">{state.nameOfDAO}</h4>
+            <p className="font-epilogue font-normal text-[16px] text-white mbl px-3 py-2 w-full rouned-b-[10px] text-center">{`Name`}</p>
           </div>
           <CountBox title="Total Members" value={members[0]?.length} />
-          <CountBox className="text-[10px]" title="History" value={`${getHistory(Number(state.creationTime._hex))} Days`} />
-          <CountBox title="Promotions" value={0} />
+          <CountBox className="text-[10px]" title="History" value={`${getHistory(Number(state.creationTime._hex))} Hours`} />
+          <CountBox title="Promotions" value={promotions?.length} />
         </div>
       </div>
 
@@ -132,14 +161,14 @@ const DAOdetails = () => {
         <div className="flex-1">
           <h4 className="font-epilogue font-semibold text-[18px] text-white uppercase">Join</h4>
 
-          <div className="mt-[20px] flex flex-col p-4 bg-[#1c1c24] rounded-[10px]">
-            <p className="font-epilogue fount-medium text-[20px] leading-[30px] text-center text-[#808191]">
+          <div className="mt-[20px] flex flex-col p-4 mbl rounded-[10px]">
+            <p className="font-epilogue fount-medium text-[20px] leading-[30px] text-center text-white font-bold">
               Join the DAO
             </p>
             <div className="mt-[0px]">
-              <div className="my-[20px] p-4 bg-[#13131a] rounded-[10px]">
-                <h4 className="font-epilogue font-semibold text-[14px] leading-[22px] text-white">Back it because you believe in it.</h4>
-                <p className="mt-[20px] font-epilogue font-normal leading-[22px] text-[#808191]">Support the project for no reward, just because it speaks to you.</p>
+              <div className="my-[20px] p-4 bg-[#13131a] rounded-[10px] mbl">
+                <h4 className="font-epilogue font-semibold text-[14px] leading-[22px] text-white">Find this interesting? Join Now!</h4>
+                <p className="mt-[20px] font-epilogue font-normal leading-[22px] text-white">You will be able to participate promotions hold by this DAO</p>
               </div>
 
               {/* <CustomButton 
@@ -152,13 +181,22 @@ const DAOdetails = () => {
               <Web3Button
                 contractAddress={state.contractAddress}
                 contractAbi={FansDAOABI.abi}
-                className="font-epilogue font-semibold text-[16px] leading-[26px] text-white min-h-[52px] px-4 rounded-[10px] w-full bg-[#8c6dfd]"
+                className="font-epilogue font-semibold text-[16px] leading-[26px] text-white min-h-[52px] px-4 rounded-[10px] w-full bg-[#8c6dfd] mbl"
                 accentColor={"#8c6dfd"}
                 onSubmit={() => setIsLoading(true)}
                 onSuccess={() => setIsLoading(false)}
                 isDisabled={members[0]?.includes(address)}
                 // Call the name of your smart contract function
-                action={(contract) => { contract.call('become_memeber') }}
+                action={async (contract) => {
+                  try {
+                    const tx = await contract.call('become_memeber')
+                    console.log(tx)
+                    if (tx.receipt.status === 1) alert('Transaction Success')
+                  } catch (e) {
+                    alert(e)
+                  }
+
+                }}
               >
                 {members[0]?.includes(address) ? `You are a member!` : `Join ${state.nameOfDAO}`}
               </Web3Button>
@@ -169,7 +207,7 @@ const DAOdetails = () => {
           <CustomButton
             btnType="button"
             title={`Look up for promotions`}
-            styles="w-full bg-[#8c6dfd]"
+            styles="w-full bg-[#0000e6] mbl"
             handleClick={handleLookPromotions}
           />
         </div>
