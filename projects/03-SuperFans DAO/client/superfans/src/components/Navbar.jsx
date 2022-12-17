@@ -43,8 +43,8 @@ const Navbar = () => {
 
       {/* Small screen navigation */}
       <div className="sm:hidden flex justify-between items-center relative">
-        <div className="w-[40px] h-[40px] rounded-[10px] bg-[#2c2f32] flex justify-center items-center cursor-pointer">
-          <img src={logo} alt="user" className="rounded-[10px] object-contain" />
+        <div className="h-[40px] rounded-[10px] bg-[#2c2f32] flex justify-center items-center cursor-pointerl">
+          <img src={logo} alt="user" className="h-[40px] rounded-[10px] object-cover" />
         </div>
 
         <img

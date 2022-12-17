@@ -6,12 +6,12 @@ import { DAOdetails, CreateDAO, Home, Profile, Promotions, AllPromotions, Promot
 
 const App = () => {
   return (
-    <div className="relative sm:-8 p-4 linear-gradient-bg min-h-screen flex flex-row">
-      <div className="sm:flex hidden mr-10 relative">
+    <div className="relative linear-gradient-bg sm:-8 p-4 min-h-screen flex flex-row linear-gradient-bg">
+      <div className="sm:flex hidden mr-5 relative">
         <Sidebar />
       </div>
 
-      <div className="flex-1 max-sm:w-full max-w-[1280px] mx-auto sm:pr-5">
+      <div className="flex-1 max-sm:w-full mx-auto max-w-[1280px] sm:pr-5">
         <Navbar />
 
         <Routes>
