@@ -1,0 +1,38 @@
+.row {
+  display: flex;
+}
+
+.row .select {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.select {
+  margin-bottom: 10px;
+  display: block;
+  width: 150px;
+
+}
+
+.select:last-child {
+  margin-bottom: 0;
+}
+
+.text {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.inner-text {
+  margin: 0 10px;
+}
+
+.inner-text:first-child {
+  margin-left: 0;
+}
+
+.input {
+  width: 100px;
+}
+
+
