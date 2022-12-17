@@ -65,8 +65,10 @@ SuperFans DAO是一个个人影响力DAO协议，旨在以去中心化和DAO的�
 https://github.com/JupiterXiaoxiaoYu/2022Q4-hackathon/
 
 ## 成员
-
-Jupiter
-- 啥都不会
+Jupiter Yu 
+- SuperFans DAO 产品、设计与开发
+- 大三学生，复旦大学计算机科学与技术交换在读，爱丁堡大学认知科学专业
+- QAQ (Quadratic Acceleration Quantum) - Associate / Rosen Bridge - Founding Engineer / ...
 - https://github.com/JupiterXiaoxiaoYu
+- https://jupiterxiaoxiaoyu.github.io/homepage/
 - 0x195abA54f05c3b850011B5Ac6804293546EB83bb
