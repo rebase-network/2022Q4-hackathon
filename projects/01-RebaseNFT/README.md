@@ -1,32 +1,41 @@
-# PR 编号 1 （即此次黑客松比赛中你所在队伍的编号，如何知道编号可以查看👆的流程）
+# PR 编号 23
 # 队伍信息
 ## 队伍/作品名称
-RebaseNFT
+gitverse
 
 ## ERC20 地址(用于团队接收奖励)
-0xC8ecB38d26205BCeec31310806FA5e29F7426ADb
+0x0a60Cd5DEF55195779Eca24892849172CD60A171
 
 ## 作品简介
 
-RebaseNFT 是一款NFT发行工具，通过多签合约结合去中心化存储发行 POAP。
-RebaseNFT 用以记录 Rebase社区中的活动参与记录和贡献，对于 Rebase社区而言极具意义。
+Github in Web3
 
 ## 作品代码仓库
-https://github.com/rebase-network/hello-world
+https://github.com/GitverseEth/gitverse
 
 ## 成员
 
-Frozen
-- Rebase 开发
-- https://github.com/xrdavies
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADc
+Gitverse
+- 产品
+- https://github.com/GitverseEth
+- 0x0a60Cd5DEF55195779Eca24892849172CD60A171
 
-Harry
-- Rebase 设计
-- https://github.com/luckyyang
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADd
+Yiko
+- 前后端
+- https://github.com/TecSong
+- 0x6094F5eBfaD4E1c2810100a5f1e4A9C2Bf6afd00
 
-Shooter
-- Rebase 产品
-- https://github.com/liushooter
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADe
+jack
+- 后端
+- https://github.com/rectinajh
+- 0xD88dcCccD6E1c614614e21183c97e5391718d929
+
+vin
+- 产品设计
+- https://github.com/Ari-ch
+- 0xcc88cb3af282329bf22dde4d105a5ece2db5b8bd
+
+kun
+- 后端
+- https://github.com/ertou555
+- 0x74a0Cd7ccd1085ac02eF5c88Ea0c13A246191D47
