@@ -22,6 +22,10 @@ NFT AR Live Streaming是针对Web3.0的去中心化直播平台，
 
 https://github.com/VOKA-AI/RebaseHackathonLiveStreaming
 
+## demo链接
+
+- http://176.34.17.140:8081/
+
 ## 成员
 
 Dennis
