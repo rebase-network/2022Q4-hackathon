@@ -49,6 +49,6 @@ $ docker run --name alert aa864451000/alert:demo
 - 支持更多数据类型的 Connector，例如 Dune、Opensea 等
 - 支持更多数据指标，例如 NFT、Whale、DeFi 等
 - 支持更多的通知渠道，例如 Telegram、Email、Slack 等
-- 支持更多的规则条件和触发频率，例如每天 1 次，免打扰时间等
+- 支持更多的规则条件和触发频率，例如每天 1 次、免打扰时间等
 - 考虑通过付费来解锁更多指标和监控额度
 
