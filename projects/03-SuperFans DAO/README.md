@@ -12,8 +12,10 @@ SuperFans DAO是一个个人影响力DAO协议，旨在以去中心化和DAO的�
 ### 创建DAO
 利用SuperFans DAO协议，只需要填入个人名称，DAO的名称，故事，logo和其他一些信息，人人都可以创建一个DAO或去中心化社区
 
-<img src="https://user-images.githubusercontent.com/71649294/208254302-606d5f32-8478-4221-9b46-14e27d4bc865.png" alt="Cover" width="60%" align="center"/>
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/71649294/208254302-606d5f32-8478-4221-9b46-14e27d4bc865.png" alt="Cover" width="60%"/>
+</div>
+  
 ### 寻找DAO
 所有基于SuperFans DAO协议构建的DAO都能够被协议索引，用户能够轻易找到其他用户创建的DAO
 
