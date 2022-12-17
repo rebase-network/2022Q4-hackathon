@@ -7,8 +7,10 @@
 ![](./demo/list.jpeg)
 
 创建策略: 
-![](./demo/list.jpeg)
+![](./demo/create.jpeg)
 
+策略执行记录: 
+![](./demo/record.jpg)
 
 ## 快速开始
 
