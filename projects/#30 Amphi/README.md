@@ -8,8 +8,8 @@ Amphi
 
 ## 作品简介
 
-Amphi 是一个去中心化的智能语言服务+内容生产 Dapp
-Amphi 提供全球本地服务，并打造翻译领域NFT平台。
+Amphi 是一个去中心化的翻译+内容生产 Dapp
+平台提供全球当地服务，以及翻译领域NFT的平台
 
 ## 作品代码仓库
 https://github.com/orgs/Amphi-lab/repositories
