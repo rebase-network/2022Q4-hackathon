@@ -16,6 +16,12 @@ NFT AR Live Streaming是针对Web3.0的去中心化直播平台，
 用户登陆后可以将自己的NFT图片生成3D Avatar模型，并作为AR头套用在直播中。
 直播平台利用IPFS实现去中心化的内容分发。
 
+<div align="center">
+  <img src=https://github.com/VOKA-AI/2022Q4-hackathon/blob/main/projects/PR07-VokaAI/docs/Mfer.png width="300"/>
+</div>
+
+https://user-images.githubusercontent.com/19359257/208241087-5b7881e4-0ede-4fbe-81ef-2e8d22510b8c.mov
+
 缺少应用场景是限制NFT发展的原因之一，将NFT用于直播中，不失为推动NFT发展的一次探索。
 
 ## 作品代码仓库
