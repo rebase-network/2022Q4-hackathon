@@ -81,7 +81,7 @@ const Navbar = () => {
           <div className="flex mx-4">
             <CustomButton
               btnType="button"
-              title={address ? 'Create a campaign' : 'Connect'}
+              title={address ? 'Build your DAO' : 'Connect'}
               styles={address ? 'bg-[#FFA044]' : 'bg-[#8c6dfd]'}
               handleClick={() => {
                 if (address) navigate('create-dao')
