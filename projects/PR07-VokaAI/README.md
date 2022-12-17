@@ -19,6 +19,7 @@ NFT AR Live Streaming是针对Web3.0的去中心化直播平台，
 缺少应用场景是限制NFT发展的原因之一，将NFT用于直播中，不失为推动NFT发展的一次探索。
 
 ## 作品代码仓库
+
 https://github.com/VOKA-AI/RebaseHackathonLiveStreaming
 
 ## 成员
@@ -30,13 +31,16 @@ Dennis
 
 Eric
 - Rebase 设计
+- 
 - 0xaC79320bcaeE6E1614b5fA0E37cdb776a64559e6
 
 Vincent
 - Rebase 开发
 - https://github.com/Zhang-Tianxu
-- 
+- 0x111Aa21DceCe2b5d15d309c703d2C71a5498D3E9
 
 Kailin
 - Rebase 开发
 - https://github.com/xklFFF
+- 0x7eBDA10177e22aB227928F9AA430B93bF094db4d
+
