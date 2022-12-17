@@ -3,5 +3,4 @@
 #   https://www.elastic.co/guide/en/logstash/current/multiple-pipelines.html
 
 - pipeline.id: twitterscan_topic_ranking
-  path.config: "/usr/share/logstash/src/twitterscan_trending_topics.conf"
-
+  path.config: '/usr/share/logstash/src/twitterscan_trending_topics.conf'
