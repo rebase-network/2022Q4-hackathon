@@ -1,7 +1,7 @@
 # Canary3 前端
 > 设置策略，帮用户获取收益。
 
-Demo：[这里](https://www.capcut.cn/share/7177950888768705830?t=1)
+功能演示 Demo：[这里](https://www.capcut.cn/share/7177950888768705830?t=1)。
 
 策略列表: 
 ![](./demo/list.jpeg)
