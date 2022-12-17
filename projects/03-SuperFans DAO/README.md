@@ -19,7 +19,7 @@ SuperFans DAO是一个个人影响力DAO协议，旨在以去中心化和DAO的�
 ### 寻找DAO
 所有基于SuperFans DAO协议构建的DAO都能够被协议索引，用户能够轻易找到其他用户创建的DAO
 
-![image](https://user-images.githubusercontent.com/71649294/208254464-2a8ec420-89af-4dfb-8b08-24739651cd2a.png){:width="100px" align="center"}
+![image](https://user-images.githubusercontent.com/71649294/208254464-2a8ec420-89af-4dfb-8b08-24739651cd2a.png){:width="60%" align="center"}
 
 ### 加入DAO
 无须许可，成为DAO的一员并获得初始的Power值，通过和DAO的事件进行交互可以提升Power值，Power值代表了成员在DAO中的贡献程度、参与程度等等（影响力），成为DAO的成员还能参与DAO的专属事件，但有的事件需要成员的Power值达到一定标准
