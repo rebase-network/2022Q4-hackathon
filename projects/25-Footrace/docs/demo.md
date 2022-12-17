@@ -46,8 +46,8 @@ $ docker run --name alert aa864451000/alert:demo
 
 ## 未来发展计划
 
-- 支持更多数据类型的 Connector，例如 Dune、Opensea 等，用户可以监控更多数据指标
+- 支持更多数据类型的 Connector，例如 Dune、Opensea 等
+- 支持更多数据指标，例如 NFT、Whale、DeFi 等
 - 支持更多的通知渠道，例如 Telegram、Email、Slack 等
-- 支持同时监控多个数据源，例如 1 小时内，有 10 个 Twitter KOL 提到某一个 NFT，它在 Opensea 的地板价是 0.1E
 - 考虑通过付费来解锁更多指标和监控额度
 
