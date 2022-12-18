@@ -4,7 +4,7 @@
 Git3 - git protocal for web3
 
 ## ERC20 地址(用于团队接收奖励)
-0x9620b36841DaCd567032110000a7F090eBf2BCa3
+0x02DEAe155a19802c51d6b426B01dbd7Dcb47783D
 
 ## 作品简介
 
