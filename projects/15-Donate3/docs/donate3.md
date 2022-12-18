@@ -1,3 +1,3 @@
-TODO
+# 介绍
 
-首先是一个合约，捐赠可以 mint 一个 certificate 记录了你的信息作为捐赠凭证。然后就是前端很方便的调用这个合约进行地址捐赠。此外可以读取合约信息生成列表，根据地址获取 ens 的 profile 展示出来。
+请参考演示文档 <https://docs.google.com/presentation/d/1F9VTRN0DfjAWJsHBI8nrNeTZSEsQnbjkrhTuffY5uxY>，不再赘述
