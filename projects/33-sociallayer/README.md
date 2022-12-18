@@ -11,6 +11,8 @@ PR 33
 Social Layer 是一个社交 SBT 协议，Solas 是基于 Social Layer 的社交徽章铸造与发放应用。
 Solas Float 是一个浏览器插件，将 Solas 与 Twitter 进行深度集成。
 
+![image](http://data-store.raindrop.link.s3.amazonaws.com/pub/demo.jpg)
+
 ## 作品代码仓库
 https://github.com/sociallayer-im/float
 
