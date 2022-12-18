@@ -14,23 +14,29 @@ ERC721-Cross 通过平行合约和微服务中间件实现每个NFT在所有链�
 ## 作品代码仓库
 https://github.com/liusanchuan/Middleware.web3/
 
-## 成员
-Sanchuan
-- 合约开发，协议设计
-- https://github.com/liusanchuan
-- 0xa5980A3BB130dAA6a78C7A2D9055FE09098a851d
-
-Fx
+## 成员（排名不分先后）
+Fx Xie
 - 微服务和后端开发
 - https://github.com/xiezhaochu
-- 
+- bigwolfdog.eth
 
-PineDuan
+Pine Duan
 - 前端开发和UX设计
 - https://github.com/PineDuan
+- 
 
 Box 
 - 链端数据开发
 - https://github.com/nishuzumi
+- boxchen.eth
 
+Lindle
 
+- 产品策划
+- 0xd33B955D4c0b791A20a3e20ddc1524A0611CFa60
+
+Sanchuan
+
+- 合约开发，协议设计
+- https://github.com/liusanchuan
+- 0xa5980A3BB130dAA6a78C7A2D9055FE09098a851d
