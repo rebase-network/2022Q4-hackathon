@@ -4,7 +4,7 @@
 Choko Wallet
 
 ## ERC20 地址(用于团队接收奖励)
-0xB6372E45D4747741a36AEb1a03FDf946aaF07692
+0x43aB7e5040eed6E23dA9592443917019305A8F73
 
 ## 作品简介
 Choko Wallet 是一个集成了Gasless的全链网页Smart Contract钱包。
