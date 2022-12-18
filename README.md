@@ -1,5 +1,70 @@
 # 2022Q4 Rebase Hackathon
 
+
+## 黑客松获奖信息
+
+#### 一等奖 $5000
+BlockModel  
+0x89C4efDCeA57e9a74e94CC15890e9193D8c7A0BB
+
+#### 二等奖 $2500
+Freebee   
+0x97D455835a3Ae0F0616f280286439e248f8cB030
+
+Social Layer  
+0x7F72Edd7cC0B7Fc004899b9D3C16B93e0657BCE0
+
+#### 三等奖 $1500
+Git3   
+0x9620b36841DaCd567032110000a7F090eBf2BCa3
+
+
+SecuFox   
+0xa5dEFB39eDF3B678D3C4F264EAA909E3f490d2D0
+
+Gitverse   
+0x0a60Cd5DEF55195779Eca24892849172CD60A171
+
+
+## 提交的作品有
+
+02-RuneBox  https://github.com/rebase-network/2022Q4-hackathon/pull/2  
+03-SuperFans DAO  https://github.com/rebase-network/2022Q4-hackathon/pull/3  
+04-DAOTaskPay  https://github.com/rebase-network/2022Q4-hackathon/pull/4  
+05-FreeBe  https://github.com/rebase-network/2022Q4-hackathon/pull/5  
+06-RoboHorse  https://github.com/rebase-network/2022Q4-hackathon/pull/6  
+07-VokaAI  https://github.com/rebase-network/2022Q4-hackathon/pull/7  
+08-DappReader  https://github.com/rebase-network/2022Q4-hackathon/pull/8  
+09-DAO Plugins Based On Github  https://github.com/rebase-network/2022Q4-hackathon/pull/9  
+10-DAOLink  https://github.com/rebase-network/2022Q4-hackathon/pull/10  
+11-Knowlage-dapp https://github.com/rebase-network/2022Q4-hackathon/pull/11  
+13-Git3  https://github.com/rebase-network/2022Q4-hackathon/pull/13  
+14-AITEX https://github.com/rebase-network/2022Q4-hackathon/pull/14  
+15-Donate3  https://github.com/rebase-network/2022Q4-hackathon/pull/15  
+16-SecuFox  https://github.com/rebase-network/2022Q4-hackathon/pull/16  
+17-FuLab  https://github.com/rebase-network/2022Q4-hackathon/pull/17  
+18-FairVote  https://github.com/rebase-network/2022Q4-hackathon/pull/18  
+19-Permalabs  https://github.com/rebase-network/2022Q4-hackathon/pull/19  
+20-Web3HackerDAO  https://github.com/rebase-network/2022Q4-hackathon/pull/20  
+21-Lumi Labs  https://github.com/rebase-network/2022Q4-hackathon/pull/21  
+22-Middleware.web3  https://github.com/rebase-network/2022Q4-hackathon/pull/22  
+23-Gitverse  https://github.com/rebase-network/2022Q4-hackathon/pull/23  
+24-GameOn  https://github.com/rebase-network/2022Q4-hackathon/pull/24  
+25-Footrace  https://github.com/rebase-network/2022Q4-hackathon/pull/25  
+26-UniLender  https://github.com/rebase-network/2022Q4-hackathon/pull/26  
+27-BlockModel  https://github.com/rebase-network/2022Q4-hackathon/pull/27  
+28-Amphi  https://github.com/rebase-network/2022Q4-hackathon/pull/28  
+29-Canary3  https://github.com/rebase-network/2022Q4-hackathon/pull/29  
+30-Loopss  https://github.com/rebase-network/2022Q4-hackathon/pull/30  
+31-诸天图谱 https://github.com/rebase-network/2022Q4-hackathon/pull/31  
+32-EvmHelper  https://github.com/rebase-network/2022Q4-hackathon/pull/32  
+33-Social Layer  https://github.com/rebase-network/2022Q4-hackathon/pull/33  
+34-Choko Wallet  https://github.com/rebase-network/2022Q4-hackathon/pull/34  
+35-MuseTime  https://github.com/rebase-network/2022Q4-hackathon/pull/35  
+36-Soul Faucet  https://github.com/rebase-network/2022Q4-hackathon/pull/36  
+
+---
+
 时值2022年冬季，Rebase社区将为我们自己筹划一场纯粹的黑客松，一场好玩的黑客松，一场自我挑战的黑客松来告别2022，迎接2023年！
 
 Rebase黑客松将于2022年12月16日开赛，于2022年12月18日结束。
