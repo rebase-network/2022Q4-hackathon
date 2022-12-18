@@ -4,7 +4,7 @@
 
 ## 队伍/作品名称
 
-SellX3 - sell your brand/goods on Web3
+Web3VitePress - 把 VitePress 变成 Web3 的小说写作平台
 
 ## ERC20 地址(用于团队接收奖励)
 
@@ -12,12 +12,14 @@ SellX3 - sell your brand/goods on Web3
 
 ## 作品简介
 
-SellX3 将搭建一个 Web3 的产品售卖平台，特别是产品可以是基于其他的产品而叠加的。
+
+Web3VitePress 基于 VitePress 技术基础上，添加了 Web3 相关的 UX/UI， 目标是能让 VitePress 用户可以在上面写小说或者其他书时，可以把小说或者书发布为 NFT，其读者可以通过 mint NFT 来获得书的不同章节的阅读权限。
+
 此次将使用 《元宇宙赏金黑客传奇》小说的共创场景来展示整个产品平台的功能。
 
 ## 作品代码仓库
 
-<https://github.com/NftTopBest/SellX3>
+<https://github.com/NftTopBest/Web3VitePress-with-NFT-gating>
 
 ## 成员
 
