@@ -1,0 +1,10 @@
+http = ":8090"
+
+[mongo]
+db = "user-base"
+uri = "mongodb://admin:123456@localhost:27017/?authSource=admin"
+
+[mysql]
+dsn = "root:123456@tcp(43.153.209.106:3306)/USER?charset=utf8mb4&parseTime=true&timeout=10s&readTimeout=30s&writeTimeout=30s"
+max_idle_count = 2
+max_open_count = 4

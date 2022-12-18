@@ -1,0 +1,667 @@
+definitions:
+  handler.DaoBaseInfo:
+    properties:
+      dao_id:
+        description: daoId
+        type: integer
+      dao_image:
+        description: dao图片
+        type: string
+      dao_name:
+        description: dao名称
+        type: string
+      member:
+        description: dao成员信息
+        items:
+          $ref: '#/definitions/handler.DaoMemberBaseInfo'
+        type: array
+      member_count:
+        description: dao成员数量
+        type: integer
+      mission:
+        description: dao mission
+        type: string
+      theme_color:
+        description: 颜色值
+        type: string
+      total_valuation:
+        description: dao总估值
+        type: integer
+      wallet_address:
+        description: 创建者钱包地址
+        type: string
+    required:
+    - dao_id
+    - dao_image
+    - dao_name
+    - mission
+    - wallet_address
+    type: object
+  handler.DaoMemberBaseInfo:
+    properties:
+      head_image:
+        description: 用户头像
+        type: string
+      id:
+        description: 自增id
+        type: integer
+      name:
+        description: 用户名称
+        type: string
+      role_type:
+        description: 用户角色：1：创建者 2：管理员 3：成员 4：游客
+        type: integer
+      valuation:
+        description: dao内贡献估值
+        type: integer
+    type: object
+  handler.HandleCreateDaoReq:
+    properties:
+      action:
+        description: create:创建 edit:修改
+        type: string
+      dao_image:
+        description: dao图片
+        type: string
+      dao_name:
+        description: dao名称
+        type: string
+      mission:
+        description: dao mission
+        type: string
+      theme_color:
+        description: 颜色值
+        type: string
+      wallet_address:
+        description: 创建者钱包地址
+        type: string
+    required:
+    - action
+    - dao_image
+    - dao_name
+    - mission
+    - theme_color
+    - wallet_address
+    type: object
+  handler.HandleCreateDaoResp:
+    properties:
+      data:
+        $ref: '#/definitions/handler.DaoBaseInfo'
+      message:
+        $ref: '#/definitions/handler.Message'
+      status:
+        type: integer
+    type: object
+  handler.HandleCreateTaskReq:
+    properties:
+      action:
+        description: create:创建 edit:修改
+        type: string
+      dao_id:
+        description: dao id
+        type: integer
+      deadline:
+        description: 截至时间戳
+        type: integer
+      key_result:
+        description: 关键结果
+        type: string
+      objective:
+        description: 目标
+        type: string
+      reward:
+        description: 奖励
+        type: integer
+      task_name:
+        description: 任务名称
+        type: string
+      wallet_address:
+        description: 创建者钱包地址
+        type: string
+    required:
+    - action
+    - dao_id
+    - deadline
+    - key_result
+    - objective
+    - reward
+    - task_name
+    - wallet_address
+    type: object
+  handler.HandleCreateTaskResp:
+    properties:
+      data:
+        $ref: '#/definitions/handler.HtDaoTask'
+      message:
+        $ref: '#/definitions/handler.Message'
+      status:
+        type: integer
+    type: object
+  handler.HandleDaoInfoResp:
+    properties:
+      data:
+        $ref: '#/definitions/handler.DaoBaseInfo'
+      message:
+        $ref: '#/definitions/handler.Message'
+      status:
+        type: integer
+    type: object
+  handler.HandleDaoListResp:
+    properties:
+      data:
+        items:
+          $ref: '#/definitions/handler.DaoBaseInfo'
+        type: array
+      message:
+        $ref: '#/definitions/handler.Message'
+      status:
+        type: integer
+    type: object
+  handler.HandleEditDaoReq:
+    properties:
+      action:
+        description: create:创建 edit:修改
+        type: string
+      dao_id:
+        description: daoId
+        type: integer
+      dao_image:
+        description: dao图片
+        type: string
+      dao_name:
+        description: dao名称
+        type: string
+      mission:
+        description: dao mission
+        type: string
+      theme_color:
+        description: 颜色值
+        type: string
+      wallet_address:
+        description: 创建者钱包地址
+        type: string
+    required:
+    - action
+    - dao_id
+    - wallet_address
+    type: object
+  handler.HandleEditDaoResp:
+    properties:
+      data: {}
+      message:
+        $ref: '#/definitions/handler.Message'
+      status:
+        type: integer
+    type: object
+  handler.HandleEditTaskReq:
+    properties:
+      action:
+        description: create:创建 edit:修改
+        type: string
+      deadline:
+        description: 截至时间戳
+        type: integer
+      key_result:
+        description: 关键结果
+        type: string
+      objective:
+        description: 目标
+        type: string
+      reward:
+        description: 奖励
+        type: integer
+      task_id:
+        description: 任务id
+        type: integer
+      task_name:
+        description: 任务名称
+        type: string
+      wallet_address:
+        description: 创建者钱包地址
+        type: string
+    required:
+    - action
+    - deadline
+    - key_result
+    - objective
+    - reward
+    - task_id
+    - task_name
+    - wallet_address
+    type: object
+  handler.HandleEditTaskResp:
+    properties:
+      data: {}
+      message:
+        $ref: '#/definitions/handler.Message'
+      status:
+        type: integer
+    type: object
+  handler.HandleOperateTaskReq:
+    properties:
+      operated_user:
+        description: 被操作用户钱包地址，只有行为是Assign时有数据
+        type: string
+      operation:
+        allOf:
+        - $ref: '#/definitions/handler.TaskOperation'
+        description: 'Claim: 认领 , Assign 分配 , Submit 提交结果, Confirm 确认完成'
+      submit_result:
+        description: 提交结果hash地址
+        type: string
+      task_id:
+        description: 任务id
+        type: integer
+      wallet_address:
+        description: 钱包地址
+        type: string
+    required:
+    - operation
+    - task_id
+    - wallet_address
+    type: object
+  handler.HandleOperateTaskResp:
+    properties:
+      data: {}
+      message:
+        $ref: '#/definitions/handler.Message'
+      status:
+        type: integer
+    type: object
+  handler.HandleTaskInfoResp:
+    properties:
+      data:
+        $ref: '#/definitions/handler.TaskBaseInfo'
+      message:
+        $ref: '#/definitions/handler.Message'
+      status:
+        type: integer
+    type: object
+  handler.HandleUserLoginReq:
+    properties:
+      head_image:
+        description: 头像hash
+        type: string
+      name:
+        description: 昵称
+        type: string
+      wallet_address:
+        description: 钱包地址
+        type: string
+      wallet_type:
+        description: 1:以太坊钱包
+        type: integer
+    required:
+    - head_image
+    - name
+    - wallet_address
+    - wallet_type
+    type: object
+  handler.HandleUserLoginResp:
+    properties:
+      data: {}
+      message:
+        $ref: '#/definitions/handler.Message'
+      status:
+        type: integer
+    type: object
+  handler.HtDaoTask:
+    properties:
+      claim_by:
+        description: 认领者钱包地址
+        type: string
+      confirm_by:
+        description: 确认人钱包地址
+        type: string
+      create_at:
+        description: 创建时间
+        type: string
+      create_by:
+        description: 创建者钱包地址
+        type: string
+      create_unix:
+        description: 创建时间戳
+        type: integer
+      dao_id:
+        description: dao id
+        type: integer
+      deadline:
+        description: 截至时间
+        type: string
+      id:
+        description: 自增id
+        type: integer
+      key_result:
+        description: 关键结果
+        type: string
+      objective:
+        description: 目标
+        type: string
+      reward:
+        description: 奖励
+        type: integer
+      status:
+        description: '状态 0:被取消 1: 已创建待claim 2：进行中（已被领取）3：已提交结果 4：已确认完成'
+        type: integer
+      task_name:
+        description: 任务名称
+        type: string
+      update_at:
+        description: 更新时间
+        type: string
+    type: object
+  handler.Message:
+    enum:
+    - success
+    - err_param
+    - err_internal
+    - empty_user
+    - err_no_permission
+    type: string
+    x-enum-comments:
+      EmptyUser: 用户未登录
+      ErrInternal: 内部错误
+      ErrNoPermission: 没有权限
+      ErrParam: 参数错误
+    x-enum-varnames:
+    - SucessMsg
+    - ErrParam
+    - ErrInternal
+    - EmptyUser
+    - ErrNoPermission
+  handler.TaskBaseInfo:
+    properties:
+      creator_info:
+        allOf:
+        - $ref: '#/definitions/handler.UserBaseInfo'
+        description: 创建人信息
+      dao_id:
+        description: dao id
+        type: integer
+      deadline:
+        description: 截至时间
+        type: string
+      id:
+        description: 自增id
+        type: integer
+      key_result:
+        description: 关键结果
+        type: string
+      objective:
+        description: 目标
+        type: string
+      operate_record:
+        description: 任务操作记录
+        items:
+          $ref: '#/definitions/handler.TaskRecordBase'
+        type: array
+      reward:
+        description: 奖励
+        type: integer
+      status:
+        description: '状态 0:被取消 1: 已创建待claim 2：进行中（已被领取）3：已提交结果 4：已确认完成'
+        type: integer
+      task_name:
+        description: 任务名称
+        type: string
+    type: object
+  handler.TaskOperation:
+    enum:
+    - Create
+    - Cancel
+    - Claim
+    - Assign
+    - Submit
+    - Confirm
+    type: string
+    x-enum-comments:
+      Assign: 分配
+      Cancel: 取消
+      Claim: 认领
+      Confirm: 确认完成
+      Create: 创建
+      Submit: 提交结果
+    x-enum-varnames:
+    - Create
+    - Cancel
+    - Claim
+    - Assign
+    - Submit
+    - Confirm
+  handler.TaskRecordBase:
+    properties:
+      dao_id:
+        description: dao id
+        type: integer
+      id:
+        description: 自增id
+        type: integer
+      operate_at:
+        description: 操作时间
+        type: string
+      operated_user_info:
+        allOf:
+        - $ref: '#/definitions/handler.UserBaseInfo'
+        description: 被操作人信息
+      operation_type:
+        description: 操作类型 1：创建(create) 2：认领(claim) 3：分配（assign) 4：提交结果(submit) 5：确认完成(confirm)
+          6：取消（cancel）
+        type: integer
+      operator_info:
+        allOf:
+        - $ref: '#/definitions/handler.UserBaseInfo'
+        description: 操作人信息
+      submit_result:
+        description: 提交结果hash地址
+        type: string
+      task_id:
+        description: 任务id
+        type: integer
+    type: object
+  handler.UserBaseInfo:
+    properties:
+      head_image:
+        description: 用户头像
+        type: string
+      id:
+        description: 自增id
+        type: integer
+      name:
+        description: 用户名称
+        type: string
+      wallet_address:
+        description: 钱包地址
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /free_be/dao/create:
+    post:
+      consumes:
+      - application/json
+      description: 返回数据 status 0=成功,其他均为失败，msg 为具体错误码(字符串) 具体错误码对应关系看wiki
+      parameters:
+      - description: 请求数据
+        in: body
+        name: HandleCreateDaoReq
+        required: true
+        schema:
+          $ref: '#/definitions/handler.HandleCreateDaoReq'
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/handler.HandleCreateDaoResp'
+      summary: 用户dao创建
+  /free_be/dao/edit:
+    post:
+      consumes:
+      - application/json
+      description: 返回数据 status 0=成功,其他均为失败，msg 为具体错误码(字符串) 具体错误码对应关系看wiki
+      parameters:
+      - description: 请求数据
+        in: body
+        name: HandleEditDaoReq
+        required: true
+        schema:
+          $ref: '#/definitions/handler.HandleEditDaoReq'
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/handler.HandleEditDaoResp'
+      summary: dao信息修改
+  /free_be/dao/info:
+    get:
+      consumes:
+      - application/json
+      description: 返回数据 status 0=成功,其他均为失败，msg 为具体错误码(字符串) 具体错误码对应关系看wiki
+      parameters:
+      - description: 1:获取详情
+        in: query
+        name: action
+        required: true
+        type: integer
+      - description: daoId
+        in: query
+        name: dao_id
+        required: true
+        type: integer
+      - description: 用户钱包地址
+        in: query
+        name: wallet_address
+        required: true
+        type: string
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/handler.HandleDaoInfoResp'
+      summary: 查询dao详情接口
+  /free_be/dao/list:
+    get:
+      consumes:
+      - application/json
+      description: 返回数据 status 0=成功,其他均为失败，msg 为具体错误码(字符串) 具体错误码对应关系看wiki
+      parameters:
+      - description: 1:获取列表
+        in: query
+        name: action
+        required: true
+        type: integer
+      - description: 上一页的最后一个id，第一页填写0
+        in: query
+        name: start
+        type: integer
+      - description: 用户钱包地址
+        in: query
+        name: wallet_address
+        required: true
+        type: string
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/handler.HandleDaoListResp'
+      summary: 查询dao列表接口
+  /free_be/task/create:
+    post:
+      consumes:
+      - application/json
+      description: 返回数据 status 0=成功,其他均为失败，msg 为具体错误码(字符串) 具体错误码对应关系看wiki
+      parameters:
+      - description: 请求数据
+        in: body
+        name: HandleCreateTaskReq
+        required: true
+        schema:
+          $ref: '#/definitions/handler.HandleCreateTaskReq'
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/handler.HandleCreateTaskResp'
+      summary: task创建
+  /free_be/task/edit:
+    post:
+      consumes:
+      - application/json
+      description: 返回数据 status 0=成功,其他均为失败，msg 为具体错误码(字符串) 具体错误码对应关系看wiki
+      parameters:
+      - description: 请求数据
+        in: body
+        name: HandleEditTaskReq
+        required: true
+        schema:
+          $ref: '#/definitions/handler.HandleEditTaskReq'
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/handler.HandleEditTaskResp'
+      summary: task信息修改
+  /free_be/task/info:
+    get:
+      consumes:
+      - application/json
+      description: 返回数据 status 0=成功,其他均为失败，msg 为具体错误码(字符串) 具体错误码对应关系看wiki
+      parameters:
+      - description: 1:获取详情
+        in: query
+        name: action
+        required: true
+        type: integer
+      - description: 任务id
+        in: query
+        name: task_id
+        required: true
+        type: integer
+      - description: 用户钱包地址
+        in: query
+        name: wallet_address
+        required: true
+        type: string
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/handler.HandleTaskInfoResp'
+      summary: 查询task详情接口
+  /free_be/task/operate:
+    post:
+      consumes:
+      - application/json
+      description: 返回数据 status 0=成功,其他均为失败，msg 为具体错误码(字符串) 具体错误码对应关系看wiki
+      parameters:
+      - description: 请求数据
+        in: body
+        name: HandleOperateTaskReq
+        required: true
+        schema:
+          $ref: '#/definitions/handler.HandleOperateTaskReq'
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/handler.HandleOperateTaskResp'
+      summary: task操作
+  /free_be/user/login:
+    post:
+      consumes:
+      - application/json
+      description: 返回数据 status 0=成功,其他均为失败，msg 为具体错误码(字符串) 具体错误码对应关系看wiki
+      parameters:
+      - description: 请求数据
+        in: body
+        name: HandleUserLoginReq
+        required: true
+        schema:
+          $ref: '#/definitions/handler.HandleUserLoginReq'
+      responses:
+        "0":
+          description: ""
+          schema:
+            $ref: '#/definitions/handler.HandleUserLoginResp'
+      summary: 用户登录
+swagger: "2.0"

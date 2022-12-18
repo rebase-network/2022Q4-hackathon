@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>info_fill</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
+        <g id="assets" transform="translate(-1278.000000, -544.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="info_fill" transform="translate(1278.000000, 544.000000)">
+                <rect id="矩形" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M8,1.031 C4.157,1.031 1.031,4.157 1.031,8 C1.031,11.843 4.157,14.969 8,14.969 C11.843,14.969 14.969,11.843 14.969,8 C14.969,4.157 11.843,1.031 8,1.031 Z M8.5,11.5 C8.5,11.7765 8.2765,12 8,12 C7.7235,12 7.5,11.7765 7.5,11.5 L7.5,7 C7.5,6.7235 7.7235,6.5 8,6.5 C8.2765,6.5 8.5,6.7235 8.5,7 L8.5,11.5 Z M8,5.5 C7.586,5.5 7.25,5.1635 7.25,4.75 C7.25,4.3355 7.586,4 8,4 C8.414,4 8.75,4.3355 8.75,4.75 C8.75,5.1635 8.414,5.5 8,5.5 Z" id="形状" full="currentColor"></path>
+            </g>
+        </g>
+    </g>
+</svg>

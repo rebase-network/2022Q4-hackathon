@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="243px" height="125px" viewBox="0 0 243 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Freebe logo</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Freebe-logo">
+            <g id="编组-2" transform="translate(40.691764, 63.239557) rotate(-45.000000) translate(-40.691764, -63.239557) translate(-4.801169, 18.739983)">
+                <g id="编组" transform="translate(34.065710, 54.933438) rotate(45.000000) translate(-34.065710, -54.933438) translate(9.977615, 30.845344)">
+                    <path d="M48.1761891,3.55271368e-14 L48.176,14.452 L34.4528567,14.4528567 C23.5222211,14.4528567 14.6396317,23.2215853 14.4557638,34.1083673 L14.4528567,34.4528567 L14.452,48.176 L0,48.1761891 L0,39 C-2.63777963e-15,17.4608948 17.4608948,3.95666944e-15 39,0 L48.1761891,3.55271368e-14 Z" id="形状结合" fill="#0C0C0E"></path>
+                    <circle id="椭圆形" fill="#0EBCC0" cx="36.1321418" cy="35.8668319" r="7.22642837"></circle>
+                </g>
+                <path d="M90.1499603,14.588421 L90.1498282,29.040421 L70.4046043,29.0412777 C63.4087399,29.0412777 57.251817,32.6332134 53.6774628,38.0734577 L39.1598282,38.07352 C45.1584647,24.2540273 58.9263445,14.588421 74.9517476,14.588421 L90.1499603,14.588421 Z" id="形状结合" fill="#0C0C0E" transform="translate(64.654894, 26.330970) scale(-1, -1) rotate(45.000000) translate(-64.654894, -26.330970) "></path>
+            </g>
+            <text id="reeBe" font-family="Arial-Black, Arial Black" font-size="48" font-weight="700">
+                <tspan x="73" y="103" fill="#0C0C0E">ree</tspan>
+                <tspan x="159.109375" y="103" fill="#0EBCC0">Be</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

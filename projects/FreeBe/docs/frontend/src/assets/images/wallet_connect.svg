@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 92</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-1085.000000, -244.000000)">
+            <g id="编组-92" transform="translate(1085.000000, 244.000000)">
+                <g id="1200x630wa" fill="#009AFF">
+                    <rect id="蒙版" x="0" y="0" width="64" height="64" rx="5"></rect>
+                </g>
+                <g id="编组-91" transform="translate(10.356987, 22.338574)" stroke="#FFFFFF" stroke-width="6">
+                    <path d="M8.47686528,6.88174428 C11.9500932,2.29391476 16.3066295,0 21.5464743,0 C26.7863191,0 31.4889094,2.29391476 35.6542452,6.88174428" id="路径-4"></path>
+                    <polyline id="路径-5" points="0 11.661426 12.0059616 22.6598956 22.0655553 13.1184598 32.3187789 22.6598956 44.1418965 11.661426"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
