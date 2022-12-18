@@ -24,3 +24,6 @@ Noequal
 - permalab 开发
 - 0xB8f1770406003991b58603a069eE9E01dE2Cf354
 
+Dugubuyan
+- permalab 开发
+- 0x7eB944E6f1A513c48DB0BBE7687233aED3ff61DD
