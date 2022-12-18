@@ -7,7 +7,9 @@ SuperFans DAO
 0x195abA54f05c3b850011B5Ac6804293546EB83bb
 
 ## 作品简介
-SuperFans DAO是一个个人影响力DAO协议，旨在以去中心化和DAO的方式链接超级个体和他们的追随者。目前SuperFans DAO采用EthStorage方案，前端部署在Galileo Testnet上，智能合约部署在以太坊Goerli test network上。使用SuperFans DAO协议，个体能够快速创建DAO，以及利用NFT相关合约创建与DAO相关联事件如投票，NFT销售，成员证明发放等等。SuperFans DAO以简洁明了的UI和逻辑使得DAO能够真正以低门槛的方式对大众进行普及。
+- SuperFans DAO是⼀个基于影响⼒及事件治理和驱动的DAO协议，旨在以DAO及DAO⽹络的⽅式帮助个体和他们的社交⽹络进⾏互动和链接，并创造新的DAO⽤例
+- 使⽤SuperFans DAO协议，个体能够快速创建DAO，以及创建与DAO相关联事件如投票，NFT销售，成员证明发放等等
+- SuperFans DAO以简洁明了的使⽤逻辑，能够结合社交⽹络/粉丝经济/创作者经济，使得DAO真正以低⻔槛的⽅式向⼤众进⾏普及
 
 ### 创建DAO
 利用SuperFans DAO协议，只需要填入个人名称，DAO的名称，故事，logo和其他一些信息，人人都可以创建一个DAO或去中心化社区
