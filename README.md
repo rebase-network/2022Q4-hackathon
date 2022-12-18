@@ -14,7 +14,8 @@ Freebee
 Tx https://etherscan.io/tx/0x7636c47323d17feb26a14dd9dc498ad4240efefd510f71ad871ad4dab0faf8db  
 
 Social Layer  
-0x7F72Edd7cC0B7Fc004899b9D3C16B93e0657BCE0
+0x7F72Edd7cC0B7Fc004899b9D3C16B93e0657BCE0  
+Tx https://etherscan.io/tx/0x5fd171090f0da4c99cb9997a420337dae649b242358ebb37f683e2fc3368a1ba  
 
 #### 三等奖 $1500
 Git3   
