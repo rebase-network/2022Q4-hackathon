@@ -5,7 +5,8 @@
 
 #### 一等奖 $5000
 BlockModel  
-0x89C4efDCeA57e9a74e94CC15890e9193D8c7A0BB
+0x89C4efDCeA57e9a74e94CC15890e9193D8c7A0BB  
+Tx https://etherscan.io/tx/0x33bd05ec92e839fecf8e67754a5d090cdccc17ce6a3529996b546eb766fc873d
 
 #### 二等奖 $2500
 Freebee   
