@@ -18,11 +18,13 @@ https://github.com/eemsyw/FairVote.git
 
 ## 成员
 
+
 Nicodemus: 开发
 
 - FairVote 开发
 - https://github.com/nicodemusdu
 - 0xf62AAdAdf80f0CeE151AF3851a9B3866255c6CD4
+
 
 Ethan
 
@@ -30,14 +32,23 @@ Ethan
 - https://github.com/eemsyw
 - 0x8ab6B5c37b1ffA826ECfbDc2F6A835D64e755100
 
+
 Usopp
 
 - FairVote 开发/产品
 - https://github.com/usopp2023
 - 0x8817E259B93256bbb86DE6Cd2E9b8612763Cc674
 
+
 August
 
 - FairVote 开发
 - https://github.com/augustye
 - 0xDc0Fb244722383BB12fB9970Bc46e60c94Fd78f7
+
+
+Ming Ze
+
+- FairVote 产品/设计
+- https://github.com/MingZe1123
+- 0x819BFb41067a9a2698001f54891B68Df370f2e31
