@@ -7,7 +7,7 @@ MetaSecureLabs-Canary3
 0xB938D5a1f09b9Ec6E6a53a123dB8B51893Ef7A5A
 
 ## 作品简介
-Canary3 是一款面向 DeFi 应用支持用户自定义策略的量化交易平台，通过对 DeFi 数据的实时监控和流式计算，当满足预设交易策略规则时可以自动进行资产的买入和卖出。
+Canary3 是一个支持用户自定义策略的量化交易平台。通过对 DeFi 数据的实时监控和流式计算，当满足预设交易策略规则时自动进行资产的买入和卖出。
 
 ## 作品代码仓库
 https://github.com/iamjoel/canary3
