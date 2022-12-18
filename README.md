@@ -17,8 +17,8 @@ Social Layer
 
 #### 三等奖 $1500
 Git3   
-0x02DEAe155a19802c51d6b426B01dbd7Dcb47783D
-
+0x02DEAe155a19802c51d6b426B01dbd7Dcb47783D  
+Tx https://etherscan.io/tx/0x00f9a6ffb5cc7a4274c0190fc8796a6f201f39f6462bda185f0bd47becde2d7b  
 
 SecuFox   
 0xa5dEFB39eDF3B678D3C4F264EAA909E3f490d2D0
