@@ -10,7 +10,8 @@ Tx https://etherscan.io/tx/0x33bd05ec92e839fecf8e67754a5d090cdccc17ce6a3529996b5
 
 #### 二等奖 $2500
 Freebee   
-0x97D455835a3Ae0F0616f280286439e248f8cB030
+0x97D455835a3Ae0F0616f280286439e248f8cB030  
+Tx https://etherscan.io/tx/0x7636c47323d17feb26a14dd9dc498ad4240efefd510f71ad871ad4dab0faf8db  
 
 Social Layer  
 0x7F72Edd7cC0B7Fc004899b9D3C16B93e0657BCE0
