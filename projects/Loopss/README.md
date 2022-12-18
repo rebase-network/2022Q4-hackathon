@@ -46,8 +46,6 @@ Loopss 按照以下步骤操作可体验 DEMO 的基础流程
 ### #4. 链接
 Loopss 的网站地址：https://i.loopss.me/
 
-Loopss 的说明文档：https://socialmoney.notion.site/Loopss-15a3634708754d729b345f386d80dc9d
-
 代币地址：0xB1aC1c0f2E7E467f10Df232E82CC65e2CA4Cb0d2
 
 
