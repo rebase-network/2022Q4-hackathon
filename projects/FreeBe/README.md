@@ -12,6 +12,10 @@
 
 ## 作品代码仓库
 
+
+
+## 成员
+
 Shrimp
 
 - FreeBe 前端开发
@@ -35,3 +39,7 @@ Zoe
 - FreeBe 产品设计
 - <https://www.yuque.com/zoeren>
 - 0xDe849821b0f1A5d94442D83A80B84c5aA0BC4e51
+
+
+
+核对完毕—
