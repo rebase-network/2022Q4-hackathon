@@ -1,59 +1,42 @@
-# PR 编号 21 （即此次黑客松比赛中你所在队伍的编号，如何知道编号可以查看👆的流程）
+# PR 编号 21 
 # 队伍信息
 ## 队伍/作品名称
-LUMI
+Lumi
 
 ## ERC20 地址(用于团队接收奖励)
 0x5f077eefF967Ed8411b32e2Bd0f5cAb16e22A8B4
 
 ## 作品简介
-Lumi dApp基于Lumi protocol，以基督徒为核心，让人们的互助、互祷行为，通过web3对真实世界的互助产生实质影响。
 
-用户祷告的日常行为以Bless token呈现。Bless token用来捐助。捐助过同一事件的人获得SBT徽章，用来找到志同道合的朋友。
+Lumi dApp基于Lumi protocol，以基督徒为核心，让互助互祷行为，通过web3对真实世界的互助产生实质影响。
+
+用户祷告获得LUMI token，token用来捐助。捐助过同一事件的人获得SBT徽章，加入志同道合的社群。
 
 ## 作品代码仓库
-https://github.com/lumi-labs
+[？？？？？？](https://github.com/lumi-labs)
 
 ## 成员
-Julie8023
-- LUMI 产品
+Julie
+- LUMI项目设计
 - https://github.com/Julie8023
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADc
+- 0x07C142cb5BEA864375D13540437596c2c31B68a2
+
+曾老铁
+- 智能合约
+- https://twitter.com/Xmas118
+- 0x3264Cf09543C9E713DDE3Fb2A87A9FE9513A0d59
+
+lishu
+- 智能合约
+- https://github.com/Li-Shu14
+- 0xFc42989B0BCa31a778bFa46ea3A30169cA363c0B
 
 Tom
-- LUMI 开发
-- https://github.com/xrdavies
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADc
+-服务端
+-https://github.com/lingxiyang
+-0x21EDE0919A03314A248b79903731ca92Ff3a8eDc
 
-Ace
-- LUMI 开发
-- shuaige.ace@outlook.com
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADd
-
-jie zhang
-- Rebase 开发
-- https://github.com/Sorryjjj
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADe
-
-Li-Shu14
-- LUMI 开发
-- https://github.com/Li-Shu14
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADe
-
-Yifu Zhang
-- LUMI 开发
-- https://github.com/vsszhang
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADe
-
-installi
-- LUMI 开发
-- https://github.com/installi
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADe
-
-lingxiyang
-- LUMI 开发
-- https://github.com/lingxiyang
-- 0xC8ecB38d26205BCeec31310806FA5e29F7426ADe
-
-
-
+Jz
+-前端
+-https://github.com/Sorryjjj
+-0x896A79b2f92554785542dFDD918CF9330e77Bec9
