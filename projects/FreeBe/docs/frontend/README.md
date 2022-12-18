@@ -14,8 +14,8 @@
 
 - husky: Git钩子工具 - 对应文件 commitlint.config.cjs
 - normalize.css: css原生文件
-- unplugin-auto-import: Vue钩子自动导入 👍 - 在vite.config.ts中plugin中配置 - 对应生成文件 auto-import.d.ts
-- unplugin-vue-components: 页面与组件自动导入 👍 - 在vite.config.ts中plugin中配置 - 对应生成文件 - components.d.ts
+- unplugin-auto-import: Vue钩子自动导入  - 在vite.config.ts中plugin中配置 - 对应生成文件 auto-import.d.ts
+- unplugin-vue-components: 页面与组件自动导入  - 在vite.config.ts中plugin中配置 - 对应生成文件 - components.d.ts
 - @vueuse/core: Vue函数封装库
 - vee-validate: 表单验证工具
 - zod: 强校验语法库
@@ -24,7 +24,7 @@
 
 - headless Tailwind UI -  精简但功能少
 - Vuetify - 国际化 功能多 Meteral模式
-- 目前占比: 自定义60% + Vuetify30% + handless 10%
+- 目前占比: 自定义70% + Vuetify20% + handless 10%
 
 #### 主题
 
@@ -34,8 +34,3 @@
 - 辅助色pink:#FF7083
 - 黑色：#060608
 - 蓝灰色：#71718A
-
-## Log
-
-- 2022/12/5 eslint与其他语法配置工具
-- 2022/12/8 引入icon自定义配置与新增钱包与Dialog，Message通用组件
