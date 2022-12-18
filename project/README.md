@@ -1,3 +1,4 @@
+# PR 编号 21 
 # Knowlage-dapp (Learn To Earn)
 
 ## 队伍信息
@@ -11,7 +12,7 @@ Knowlage
 参与者可以发起提案众筹一个精品课件，结束后可获得Token激励和徽章NFT以用于市场投放简历或寻找兼职
 
 #### 产品流程图简介
-![image](/source/img/system.png)
+![image](./source/img/system.png)
 
 ### 作品代码仓库
 https://github.com/uninstalls/knowlage-dapp
