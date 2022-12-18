@@ -31,7 +31,7 @@ Yiko
 - 0x6094F5eBfaD4E1c2810100a5f1e4A9C2Bf6afd00
 
 skysys
-- Canary3 algorithim
+- Canary3 Algorithim
 - https://github.com/hexbo
 - 0x069C8dd947078008f0716c1131d68313af4546aF
 
@@ -44,3 +44,4 @@ Joel
 - Canary3 FrontEnd
 - https://github.com/iamjoel
 - 0xB938D5a1f09b9Ec6E6a53a123dB8B51893Ef7A5A
+
