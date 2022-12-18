@@ -40,10 +40,10 @@ shaneson.eth
 
 windy
 - 产品和设计
-- 
+- 0xF35E089A8aA8718DedB6E6eB7Bb24A0f4d8C46DA
 
 Shrimpsss 
 - 前端设计
-- 
-- 
+- https://github.com/Code-Shrimpsss
+- 0xDE043F26d2E41315e377eb7dD3c9CF398A1bAA2c
 
