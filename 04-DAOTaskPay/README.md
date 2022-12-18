@@ -10,6 +10,10 @@ DAOTaskPay
 
 ## 作品简介
 
+ppt:
+
+https://docs.google.com/presentation/d/1etg6HTkkuHIbfzbLTlSebmCZljdIGrKrwmaYQuDfIFE/edit?usp=sharing
+
 ## 作品代码仓库
 
 https://github.com/lxdao-official/DAOTaskPay-rebase
