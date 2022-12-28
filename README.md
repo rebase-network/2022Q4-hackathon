@@ -1,5 +1,6 @@
 # 2022Q4 Rebase Hackathon
 
+所有黑客松Demo的视频已经可以在 YouTube 上查看👉 [链接](https://youtube.com/playlist?list=PLoliGRliUTjyXkuO2zCVxykj6mWjH2QcM)
 
 ## 黑客松获奖信息
 
