@@ -1,0 +1,23 @@
+rules_folder: rules
+
+# How often ElastAlert will query Elasticsearch
+# The unit can be anything from weeks to seconds
+run_every:
+  seconds: 10
+#  minutes: 5
+
+buffer_time:
+  minutes: 15
+es_host: host.docker.internal
+es_port: 9200
+es_send_get_body_as: GET
+
+# The index on es_host which is used for metadata storage
+# This can be a unmapped index, but it is recommended that you run
+# elastalert-create-index to set a mapping
+writeback_index: footrace_alert_status
+
+# If an alert fails for some reason, ElastAlert will retry
+# sending the alert until this time period has elapsed
+alert_time_limit:
+  days: 2
