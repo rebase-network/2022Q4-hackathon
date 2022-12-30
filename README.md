@@ -31,6 +31,14 @@ Gitverse
 0x0a60Cd5DEF55195779Eca24892849172CD60A171  
 Tx https://etherscan.io/tx/0x47459a41fddf655f819d9de44f76f42cc3c55e34182a468d3b5c499fbdc1dbaa  
 
+#### Rebase 社区最佳创意奖
+
+GameOn
+
+#### Rebase 社区最受欢迎奖
+
+MuseTime
+
 ### EthStorage Grant
 
 PR13-Git3 $1000  
