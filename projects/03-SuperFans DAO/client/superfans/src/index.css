@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linear-gradient {
+  background: linear-gradient(
+    179.14deg,
+    rgba(32, 18, 63, 0) -7.14%,
+    #000000 87.01%
+  );
+  
+}
+
+.radial-gradient-bg{
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.linear-gradient-bg{
+  background: linear-gradient(
+  225deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 11%,
+  hsl(315deg 100% 27%) 22%,
+  hsl(329deg 100% 36%) 34%,
+  hsl(337deg 100% 43%) 45%,
+  hsl(357deg 91% 59%) 56%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+);
+}
+
+.sdbar{
+  background: linear-gradient(
+  225deg,
+  hsl(240deg 95% 8%) 0%,
+  hsl(221deg 80% 13%) 11%,
+  hsl(220deg 69% 18%) 22%,
+  hsl(218deg 65% 24%) 34%,
+  hsl(215deg 64% 30%) 45%,
+  hsl(213deg 65% 36%) 56%,
+  hsl(211deg 68% 41%) 67%,
+  hsl(208deg 72% 46%) 78%,
+  hsl(206deg 80% 50%) 89%,
+  hsl(202deg 100% 50%) 100%
+);
+}
+
+.litext {
+  background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+
+.mbl {
+  background-image:linear-gradient(to bottom right, rgba(255,255,255,0.6), rgba(255,255,255,0));
+  backdrop-filter: "blur(10px)"; 
+  box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
+}
+
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.8);
+}
