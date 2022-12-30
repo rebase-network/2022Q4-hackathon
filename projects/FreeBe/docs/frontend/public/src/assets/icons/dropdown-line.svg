@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>un-dropdown-o</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-1326.000000, -544.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="un-dropdown-o" transform="translate(1326.000000, 544.000000)">
+                <rect id="矩形" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M3.377,5.283 C3.1814912,5.08776735 2.86473266,5.08799121 2.66950001,5.28350001 C2.47426735,5.47900881 2.47449121,5.79576734 2.67,5.991 L7.67,10.991 C7.86524993,11.186191 8.18175007,11.186191 8.377,10.991 L13.377,5.991 C13.5725088,5.79576734 13.5727326,5.47900881 13.3775,5.28350001 C13.1822673,5.08799121 12.8655088,5.08776735 12.67,5.283 L8.024,9.93 L3.377,5.283 Z" id="路径"></path>
+            </g>
+        </g>
+    </g>
+</svg>

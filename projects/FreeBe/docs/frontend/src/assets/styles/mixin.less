@@ -1,0 +1,43 @@
+// 鼠标经过上移阴影动画
+.hoverShadow () {
+  transition: all 0.5s;
+  background-color: @base-bluegrey-color;
+
+  &:hover {
+    box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
+    transform: translate3d(0, -3px, 0);
+  }
+}
+
+.un_option{
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+
+
+
+// 定义全局主题色 mixin
+.set-primary-color() {
+  color: cyan-primary-color;
+  border-color: cyan-primary-color;
+  &:hover {
+    color: darken(cyan-primary-color, 10%);
+    border-color: darken(cyan-primary-color, 10%);
+  }
+}
+
+// @primary-color: @dark-primary-color;
+// body {
+//   background-color: @dark-bg-color;
+// }
+
+// 选中
+.active {
+  background-image: url('../icons/check.svg');
+  background-position: center;
+}
+
+.lastColor {
+  border: 3px dashed whitesmoke;
+}

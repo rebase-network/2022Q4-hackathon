@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 3</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-895.000000, -334.000000)">
+            <g id="编组-3" transform="translate(895.000000, 334.000000)">
+                <circle id="椭圆形" stroke="#2479E1" stroke-width="2" fill="#FFFFFF" cx="20" cy="20" r="19"></circle>
+                <circle id="椭圆形" fill="#2479E1" cx="20" cy="20" r="15"></circle>
+                <path d="M20,19.158459 L6.22401896,14.0554933 C5.82285164,15.1208553 5.55835453,15.9158841 5.43052763,16.4405797 C5.11422864,17.7389031 5,19.0300906 5,20 C5,24.1284977 7.01258282,30.5503645 13.5503358,33.5828092 C14.4945853,34.0207861 15.0685841,34.2397745 15.2723323,34.2397745 L20,19.158459 Z" id="椭圆形" fill="#F4AB01"></path>
+            </g>
+        </g>
+    </g>
+</svg>

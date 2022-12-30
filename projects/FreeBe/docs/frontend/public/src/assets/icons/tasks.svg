@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>task</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="assets" transform="translate(-1000.000000, -508.000000)" fill-rule="nonzero">
+            <g id="task" transform="translate(1000.856487, 508.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M1,1 L1,14 L14,14 L14,7.33285714 L12.1428571,9.19 L12.1428571,12.1428571 L2.85714286,12.1428571 L2.85714286,2.85714286 L9.52428571,2.85714286 L11.3814286,1 L1,1 Z M14.1666667,1 L8.66666667,6.4 L6.83333333,4.6 L5,6.4 L8.66666667,10 L16,2.8 L14.1666667,1 Z" id="形状" fill="#060608"></path>
+            </g>
+        </g>
+    </g>
+</svg>
