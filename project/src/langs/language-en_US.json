@@ -1,0 +1,49 @@
+{
+  "ERROR": {
+    "WALLET": {
+      "NOT_CONNECT": "Please connect your wallet first.",
+      "NOT_METAMASK": "Please install the metamask extension.",
+      "NOT_SUPORT": "This network is not supported. Please switch networks.",
+      "SIGNATURE": "You did not confirm the wallet signature."
+    },
+    "COMMON": {
+      "COPYED": "Your invitation link was copied successfully.",
+
+      "BET_AMOUNT": "Bet amount invalid."
+    },
+    "CONTRACT": {
+      "CLAIMED": "Congratulations, you have received your income. Thank you for your participation.",
+      "BET_WIN": "The bet is successful. You win the game：",
+      "BET_LOSE": "The bet is successful. You lost the game."
+    }
+  },
+  "GLOBAL": {
+    "BRAND": "Knowlage",
+    "JOINUS": "Join the community",
+    "EMPTY": "No more data",
+    "USERNAME": "Tourist",
+    "LOGIN": "You are a tourist now. Please link your wallet first"
+  },
+  "MENUS": {
+    "PC": {
+      "HOME": "Home",
+      "COURSE": "Course",
+      "MAJOR": "Major",
+      "MARKET": "Market",
+      "DOCS": "Docs",
+      
+      "DISCONNECT": "Disconnect",
+      "CONNECT": "Connect Wallet"
+    }
+  },
+  "HOME": {
+    "TRENDING": "Trending Game",
+    "POKER": "Poker Game",
+    "MORE": "More Game"
+  },
+  "USER": {
+    "ADDRESS": "Address",
+    "TAB_TOKEN": "Token",
+    "TAB_BALANCE": "Balance"
+  }
+}
